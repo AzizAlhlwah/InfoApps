@@ -1,8 +1,8 @@
 <?php
-	//require("dbc.php");
+	require("dbc.php");
 	
-	//$username = $_POST['username'];
-	//$pass 	  = $_POST['pass'];
+	$username = $_POST['username'];
+	$pass 	  = $_POST['pass'];
 	
-	echo "Hello Worlod....";
+	echo $username;
 ?>
